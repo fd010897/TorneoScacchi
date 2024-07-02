@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>porfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .logo {
+            height: 40px;
+            width: 40px;
+        }
+
+
+        body {
+            background-color: #EEEEEE;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .titolo {
+            color: #76ABAE;
+        }
+
+        .bottone {
+            border: none;
+            border-radius: 5px;
+            background-color: #222831;
+            color: white;
+            cursor: pointer;
+        }
+
+            .bottone:hover {
+                background-color: white;
+                color: #222831;
+            }
+
+
+        .card-img-top {
+            max-height: 200px;
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="progetto.html">Progetto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="guidaUtenteScacchi.html">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contatti.html">Contatti</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <div class="jumbotron text-center intro">
+        <h1 class="display-3 titolo py-3">Portfolio</h1>
+        <p class="lead">Questa è la nostra pagina Portfolio, dove puoi scoprire di più sul nostro Team.<br /> Potrai vedere i progetti e le tecnologie con i quali sono stati realizzati </p>
+        <figure class="text-center">
+            <blockquote class="blockquote">
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                <p class="lead">Interfaccia semplice ed intuitiva. <br /> Scopriamola insieme!</p>
+                <a class="btn btn-md bottone" href="./cartellaEseguibile/GestionaleScacchi.jar" download="GestionaleScacchi.jar">Download</a>
+            </figcaption>
+        </figure>
+    </div>
+
+
+    <!-- Sezione Team -->
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/team.jpeg" class="img-fluid rounded-circle" alt="Profile Picture">
+            </div>
+            <div class="col-md-8">
+                <h2>Chi Siamo</h2>
+                <p>Il nostro team è composto da cinque sviluppatori altamente qualificati e appassionati, uniti da una forte volontà di eccellenza e un profondo impegno nel lavorare insieme per raggiungere gli obiettivi. Ognuno di noi porta competenze uniche e prospettive diverse al tavolo, ma ciò che ci unisce è la nostra dedizione al lavoro di squadra e alla collaborazione. Siamo abituati a superare sfide complesse insieme, sfruttando le nostre capacità complementari e supportandoci a vicenda lungo il percorso. La nostra sinergia e coesione sono fondamentali per affrontare progetti ambiziosi e ottenere risultati straordinari.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Progetti -->
+    <section id="projects" class="container mt-5">
+        <h2 class="mb-4">Progetti</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/gioco.jpeg" class="card-img-top img-fluid rounded" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Un cavaliere alla scoperta di Java</h5>
+                        <p class="card-text">Gioco di ruolo testuale creato interamente con Java.</p>
+                        <a class="btn btn-md bottone" href="#" role="button">Vedi Progetto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/book.jpg" class="card-img-top img-fluid rounded" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Libreria</h5>
+                        <p class="card-text"> Applicativo che permette di gestire una Libreria.</p>
+                        <a class="btn btn-md bottone" href="https://francescooespositoo.github.io/LibreriaJava/" target="_blank" role="button">Vedi Progetto</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/market.jpg" class="card-img-top img-fluid rounded" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">BitMarket</h5>
+                        <p class="card-text">Gestionale che ti aiuta a gestire il tuo supermercato.</p>
+                        <a class="btn btn-md bottone" href="#" role="button">Vedi Progetto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sezione Skills --> 
+    <section id="skills" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h4 class="text-center mb-4">Linguaggi di programmazione</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">Java</li>
+                    <li class="list-group-item">HTML/CSS/BOOTSTRAP</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="container text-center py-3">
+<a class="btn btn-md mt.5 bottone" href="portfolio.html" role="button">&#129045;</a>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="bg-dark text-white mt-5">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Chi siamo</h5>
+                    <p>Team di sviluppatori in formazione.</p>
+                </div>
+                <div class="col-md-4">
+                    
+                </div>
+                <div class="col-md-4">
+                    <h5>Contattaci</h5>
+                    <p>
+                        Via Roma 123, 00100 Roma, Italia<br>
+                        Email: info@example.com<br>
+                        Telefono: +39 012 345 6789
+                    </p>
+                    <div>
+                        <a href="#" class="text-white mr-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white mr-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white mr-2"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bg-secondary text-center py-3">
+            <p class="mb-0">© 2024 Nome Azienda. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
